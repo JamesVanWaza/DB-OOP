@@ -1,4 +1,5 @@
 <?php
-$dsn = 'mysql:host=localhost;dbname=oophp';
+    $dsn = 
+        'mysql:host=localhost;dbname=DosbrandingCreative';
 
-$db = new PDO($dsn, 'oophp', 'lynda');
+    $db = new PDO($dsn, 'DosbrandingCreative', 'info@dosbranding.com');
