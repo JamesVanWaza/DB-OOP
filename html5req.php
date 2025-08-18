@@ -1,7 +1,10 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
+<!DOCTYPE html>
+    <html lang="en" data-bs-theme="dark">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Database Connection with PDO</title>
-</head>
-<body>
+    <head>
+        <link rel="icon" href="images/DB-OOP-Favicon@4x.png" type="image/x-icon" sizes="128x128">
+        <link rel="stylesheet" href="public/style.css">
+    </head>
+
+    <body>
