@@ -12,14 +12,21 @@ try {
 }
 ?>
 
-<h1>Connecting with PDO</h1>
+<div class="container">
+    <h1>Connecting with PDO</h1>
 
-<?php
-if ($db) {
-    echo "<p>" . "Connection succesful" . "</p>";
-} else {
-    echo "<p>" . "Error" . "</p>";
-}
+    <nav>
+        <a href="index.php">Home</a>
+        <a href="changelog.php">Change Log</a>
+    </nav>
 
-include_once 'footer.php';
-?>
+    <?php
+    if ($db) {
+        echo "<p>" . "Connection succesful" . "</p>";
+    } else {
+        echo "<p>" . "Error" . "</p>";
+    }
+
+    include_once 'footer.php';
+    ?>
+</div>
