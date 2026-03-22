@@ -12,13 +12,13 @@ try {
 }
 ?>
 
-<div class="container">
-    <h1>Connecting with PDO</h1>
+<nav>
+    <a href="index.php">Home</a>
+    <a href="changelog.php">Change Log</a>
+</nav>
 
-    <nav>
-        <a href="index.php">Home</a>
-        <a href="changelog.php">Change Log</a>
-    </nav>
+<div class="container-fluid">
+    <h1>Connecting with PDO</h1>
 
     <?php
     if ($db) {
